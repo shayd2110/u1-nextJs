@@ -1,0 +1,13 @@
+
+.button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: fit-content;
+  font-size: 0.84rem;
+}
+
+.button:hover:not(:active) {
+  filter: brightness(0.9);
+}
